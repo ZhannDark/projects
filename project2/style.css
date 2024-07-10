@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+@media (min-width: 800px) {
+    body {
+        flex-direction: column;
+    }
+}
+@media (min-height: 500px) {
+    body {
+        flex-direction: row;
+    }
+}
+.out {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+.out-right {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+.mini-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 30px;
+    cursor: pointer;
+}
+.mini-nav a {
+    margin: 0;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.mini-nav a:hover {
+    color: #de8f68;
+}
+.main-site {
+    color: #de8f68;
+}
+.projects {
+    color: black;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    min-height: 100vh;
+    padding: 0 50px;
+    background-color: #E6DACE;
+    width: 35%;
+}
+
+.profile-card {
+    width: 370px;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: -6px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 250px;
+}
+.profile-header {
+    background-color: #f8f1eb;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+.my-logo {
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    border-radius: 50%;
+    border-style: dotted;
+}
+.my-name, .my-sname {
+    font-size: 22px;
+    color: #B08F70;
+    line-height: 0.5em;
+}
+.line {
+    display: flex;
+    height: 2px;
+    width: 100px;
+    background-color: #96BAB9;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 15px;
+}
+.social img {
+    width: 30px;
+    height: 30px;
+}
+.rect {
+    height: 18px;
+    width: 18px;
+    background-color: #de8f68;
+}
+.name-surname {
+    font-weight: normal;
+    font-family: "Comic Sans MS";
+    font-size: 24px;
+    margin-left: 20px;
+}
+.profession {
+    font-weight: lighter;
+    font-size: 22px;
+    font-family: Helvetica;
+}
+.right-profile-card {
+    width: 1000px;
+    margin-left: 680px;
+}
+.buttons {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+.btn-first {
+    font-size: 17px;
+    background-color: #de8f68;
+    border-radius: 30px;
+    border: none;
+    padding: 6px 20px;
+    cursor: pointer;
+    font-family: "Arial Hebrew Scholar";
+}
+.btn-second {
+    font-size: 17px;
+    background-color: #de8f68;
+    border-radius: 30px;
+    border: none;
+    padding: 6px 20px;
+    cursor: pointer;
+    font-family: "Arial Hebrew Scholar";
+}
+.right-profile-card button:hover {
+    background-color: #96BAB9;
+}
+.hello {
+    font-size: 110px;
+    font-weight: bold;
+    margin-top: -70px;
+}
+.info {
+    width: 600px;
+    font-size: 24px;
+    margin-top: -50px;
+}
+.about-me {
+    display: flex;
+    width: 350px;
+    text-align: left;
+    margin-top: 40px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+}
+.footer-left {
+    flex: 1;
+}
+.footer-right {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+.footer-contact {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.footer-contact h4 {
+    margin-bottom: 5px;
+}
+.footer-contact p {
+    margin: 0;
+    font-family: "Times New Roman";
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
